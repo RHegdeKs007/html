@@ -1,0 +1,68 @@
+<html>
+    <head>
+       <title>Student details</title>
+       <style>
+            h1{
+               color: red;
+               background-color:cornsilk;
+               padding: 30px; 
+               margin: 30px;
+            }
+       </style>
+       <script type="text/javascript" src="greet.js">
+           
+       </script>
+        
+
+    </head>
+    <body>
+        <center>
+         <!--heading-->
+        <h1>Jyothy institute of technology</h1>
+        <img src="jit.jfif" alt="JIT college image" />
+        
+        <br>
+        <br>
+        </center>
+        <a href="https://jyothyit.ac.in/pandt/#:~:text=2020Apply%20Online-,Placement,industry%2C%20private%20%26%20public%20sectors." >College website</a>
+        <h4>Student details</h4>
+        <form>
+            <!--details-->
+            First Name:
+            <input type='text' size='20' />
+            <br>
+            <br>
+            Last Name:
+            <input type='text' size='20' />
+            <br>
+            <br>
+            USN:
+            <input type='text' size='20' />
+            <br>
+            <br>
+            Gender:
+            <input type="radio" name="Gender" value="M" />Male
+            <input type="radio" name="Gender" value="F" />Female
+            <br>
+            <br>
+            Branch:
+            <select name="branch" >
+                 <option value="CS">Computer science engineering</option>
+                 <option value="IS">Information science engineering</option>
+                 <option value="EC">Electronics and communication engineering</option>
+                 <option value="ME">Mechanical engineering </option>
+                 <option value="CIV">Civil engineering</option>
+            </select>
+             <br>
+             <br>
+            Mail id:
+            <input type='text' size='20' />
+            <br>
+            <br>
+            Address:
+            <input type='text' size='30' />
+        </form>
+        <button onclick="greet()">Click Me</button>
+    </body>
+
+</html>
